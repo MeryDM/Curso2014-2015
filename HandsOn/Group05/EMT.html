@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <title>Análisis de la red de autobuses EMT Madrid</title>
+  </head>
+  <h3>EMT de Madrid</h3>
+  <ul>
+    <li>Nombre del fichero: EMT.rdf</li>
+    <li>Fecha de última actualizacion: 01/11/2014 (Trimestral)</li>
+    <li>Descripcion: Dataset con las paradas que forman la red de autobuses EMT de Madrid. Para cada parada se indica el ID de la linea a la que pertenece y sus coordenadas geograficas (latitud y longuitud)</li>
+    <li>Origen de los datos: Ayuntamiento de Madrid</li>
+    <li><a href="http://datos.madrid.es/egob/catalogo/aviso-legal">Licencia</a></li>
+  </ul>
+  <body>
+    <table border="1">
+      <tr><th>Column</th><th>Type</th><th>Comments/Range</th><th>Problems</th></tr>
+      <tr><td class="column">Location</td><td>Float</td><td>Coordenadas geograficas de la parada de autobus</td><td>Posteriormente se debera de analizar para obtener la latitud y longuitud por separado</td></tr>
+      <tr><td class="column">Name</td><td>String</td><td>ID de la línea de autobus y el nombre de la parada</td><td>Posteriormente se debera de analizar para obtener el ID de la línea y el nombre de la parada por separado</td></tr>
+
+    </table>
+  </body>
+</html>
+
+<style>
+  .column{
+   font-weight: bold;
+  }
+
+</style>

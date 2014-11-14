@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <title>Análisis de las estaciones de la red de Cercanias de Madrid</title>
+  </head>
+  <h3>Cercanias de Madrid</h3>
+  <ul>
+    <li>Nombre del fichero: Cercanias.rdf</li>
+    <li>Fecha de última actualizacion: 01/11/2014 (Trimestral)</li>
+    <li>Descripcion: Dataset con las estaciones que forman la red de trenes de cercanias de Madrid. Para cada estacion se indica el ID de la linea a la que pertenece y sus coordenadas geograficas (latitud y longuitud)</li>
+    <li>Origen de los datos: Ayuntamiento de Madrid</li>
+    <li><a href="http://datos.madrid.es/egob/catalogo/aviso-legal">Licencia</a></li>
+  </ul>
+  <body>
+    <table border="1">
+      <tr><th>Column</th><th>Type</th><th>Comments/Range</th><th>Problems</th></tr>
+      <tr><td class="column">Location</td><td>Float</td><td>Coordenadas geograficas de la estacion de cercanias</td><td>Posteriormente se debera de analizar para obtener la latitud y longuitud por separado</td></tr>
+      <tr><td class="column">Name</td><td>String</td><td>ID de la línea de tren y el nombre de la estacion</td><td>Posteriormente se debera de analizar para obtener el ID de la linea y el nombre de la estación por separado</td></tr>
+
+    </table>
+  </body>
+</html>
+
+<style>
+  .column{
+   font-weight: bold;
+  }
+
+</style>
